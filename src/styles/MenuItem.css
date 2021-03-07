@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.item.active {
+  background-color: #36f;
+  color: #fff;
+}
+.item > .icon {
+  height: 24px;
+  width: 24px;
+}
+.item > .name {
+  font-size: 18px;
+  line-height: 20px;
+}

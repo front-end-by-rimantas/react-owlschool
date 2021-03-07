@@ -1,0 +1,8 @@
+.aside-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+  padding: 30px;
+  background-color: #eee;
+}
